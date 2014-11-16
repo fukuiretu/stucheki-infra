@@ -1,8 +1,8 @@
 role :app, %w{vagrant@192.168.50.2}
 role :web, %w{vagrant@192.168.50.2}
 
-set :rails_env, 'stating'
-
+set :rails_env, 'staging'
+# set :deploy_to, '/home/vagrant/app/stucheki'
 # set :ssh_options, {
 #   # ローカル環境のユーザーの秘密鍵ファイルを設定する
 #   keys: %w(/Users/fukui_retu/.ssh/id_rsa)
